@@ -9,6 +9,6 @@ namespace WebProdutos.Models
         {
 
         }
-
+        public DbSet<Produto> Produtos { get; set; }    
     }
 }
