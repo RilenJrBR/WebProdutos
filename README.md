@@ -20,6 +20,7 @@
 - ASP.NET Web Forms
 - .NET CORE
 - .NET6
+- PostgreSQL.
 
 
 
