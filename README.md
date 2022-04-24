@@ -21,6 +21,7 @@
 - .NET CORE
 - .NET6
 - PostgreSQL.
+- HTML/CSS/Javascript;
 
 
 
