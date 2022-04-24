@@ -16,7 +16,7 @@ namespace WebProdutos.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     nome = table.Column<string>(type: "text", nullable: false),
-                    valor = table.Column<decimal>(type: "numeric", nullable: false),
+                    valor = table.Column<float>(type: "integer", nullable: false),
                     estoque = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>

@@ -38,7 +38,7 @@ namespace WebProdutos.Migrations
                         .HasColumnType("text");
 
                     b.Property<decimal>("valor")
-                        .HasColumnType("numeric");
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
