@@ -39,8 +39,8 @@ namespace WebProdutos.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<float>("valor")
-                        .HasColumnType("integer");
+                    b.Property<decimal>("valor")
+                        .HasColumnType("numeric");
 
                     b.HasKey("Id");
 
